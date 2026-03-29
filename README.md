@@ -21,6 +21,14 @@ This repository contains a responsive **Vite + React + Tailwind CSS** implementa
   - Modal overlay (dim/blur) with mobile-friendly sizing
 
 ## Screenshots
+Click to view:
+- [knowledgebase_list](./screenshots/KnowledgeBase_list.png)
+- [web_view](./screenshots/web_view.png)
+- [createmodal](./screenshots/createNewModal.png)
+- [createmodal2](./screenshots/createNewModal2.png)
+- [mobile_view](./screenshots/mobile_view.png)
+- [tablet_view](./screenshots/tablet_view.png)
+
 1) `knowledgebase_list`  
 ![knowledgebase_list](./screenshots/KnowledgeBase_list.png)
 
@@ -71,14 +79,6 @@ npm run build
 npm run preview
 ```
 
-## Deploy (Optional)
-### Netlify
-- Build command: `npm run build`
-- Publish directory: `dist`
-
-### Vercel
-- Framework preset: Vite
-- Build output: `dist`
 
 ## Project Structure
 ```
