@@ -1,6 +1,8 @@
 # Knowledge Base UI (React + Tailwind)
 
-Responsive front-end built with **Vite + React + Tailwind CSS**, replicating a 2-screen Knowledge Base UI:
+Hi 😊 This is Ved Prakash Bhaskar. I completed the frontend assignment given by Aventisia for the Junior Full Stack Developer role.
+
+This repository contains a responsive **Vite + React + Tailwind CSS** implementation of the provided 2-screen Knowledge Base UI:
 - **Home:** Knowledge Base listing (cards + pagination)
 - **Create New:** Modal/Drawer to create a new Knowledge Base
 
@@ -8,45 +10,47 @@ Responsive front-end built with **Vite + React + Tailwind CSS**, replicating a 2
 - Primary: `#4F46E5`
 - Secondary: `#1E1B4B`
 
-## Screenshots
-1) `knowledgebase_list`
-![knowledgebase_list](./screenshots/KnowledgeBase_list.png)
-
-2) `web_view`
-![web_view](./screenshots/web_view.png)
-
-3) `createmodal`
-![createmodal](./screenshots/createNewModal.png)
-
-4) `createmodal2`
-![createmodal2](./screenshots/createNewModal2.png)
-
-5) `mobile_view`
-![mobile_view](./screenshots/mobile_view.png)
-
-6) `tablet_view`
-![tablet_view](./screenshots/tablet_view.png)
-
-## Features
-- Reusable components: `Header`, `Sidebar`, `MainContent`, `KBCard`, `CreateKBModal`, `Dropdown`
-- Reusable animated `Dropdown` (workspace selector, rows-per-page, modal selects)
-- Dynamic KB list (create -> appears instantly)
-- Search by KB name
-- 3-dot card menu actions: **Edit**, **Delete**, **Pin/Unpin**
-- Pagination + Rows-per-page selection
-- Fully responsive (mobile ~320px -> tablet -> desktop)
+## Highlights (Beyond the Basics)
+- Reusable component architecture: `Header`, `Sidebar`, `MainContent`, `KBCard`, `CreateKBModal`, `Dropdown`
+- Animated reusable `Dropdown` used across the UI (workspace selector, rows-per-page, modal selects)
+- Dynamic Knowledge Bases (create -> appears instantly, pin sorting supported)
+- Search by Knowledge Base name
+- Functional card menu actions: **Edit**, **Delete**, **Pin/Unpin**
+- Fully responsive from small phones (~320px) -> tablet -> desktop
   - Off-canvas sidebar on mobile/tablet (toggle + overlay click-outside close)
   - Modal overlay (dim/blur) with mobile-friendly sizing
 
-## Quick Start (Run Locally)
-Prerequisites: **Node.js 18+** and **npm**
+## Screenshots
+1) `knowledgebase_list`  
+![knowledgebase_list](./screenshots/KnowledgeBase_list.png)
+
+2) `web_view`  
+![web_view](./screenshots/web_view.png)
+
+3) `createmodal`  
+![createmodal](./screenshots/createNewModal.png)
+
+4) `createmodal2`  
+![createmodal2](./screenshots/createNewModal2.png)
+
+5) `mobile_view`  
+![mobile_view](./screenshots/mobile_view.png)
+
+6) `tablet_view`  
+![tablet_view](./screenshots/tablet_view.png)
+
+## Run Locally
+Prerequisites: **Node.js 18+** and **npm**.
 
 ```bash
-# clone the repo
+# clone (SSH)
 git clone git@github.com:iamvpbhaskar/knowledgebase_aventisia.git
+
+# or clone (HTTPS)
+# git clone https://github.com/iamvpbhaskar/knowledgebase_aventisia.git
+
 cd knowledgebase_aventisia
 
-# install + run
 npm install
 npm run dev
 ```
@@ -67,18 +71,14 @@ npm run build
 npm run preview
 ```
 
-## Deploy - Netlify
-1. Netlify -> **Add new site -> Import an existing project**
-2. Select your GitHub repo
-3. Set:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist`
-4. Deploy
+## Deploy (Optional)
+### Netlify
+- Build command: `npm run build`
+- Publish directory: `dist`
 
-## Deploy - Vercel (Alternative)
-1. Vercel -> **New Project** -> import GitHub repo
-2. Framework preset: **Vite**
-3. Build output: `dist`
+### Vercel
+- Framework preset: Vite
+- Build output: `dist`
 
 ## Project Structure
 ```
