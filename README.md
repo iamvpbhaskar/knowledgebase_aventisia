@@ -65,19 +65,7 @@ npm run dev
 
 Open: `http://localhost:5173/`
 
-## Fork (GitHub)
-1. Click **Fork** on GitHub
-2. Clone your fork:
-```bash
-git clone git@github.com:<your-username>/knowledgebase_aventisia.git
-cd knowledgebase_aventisia
-```
 
-## Build
-```bash
-npm run build
-npm run preview
-```
 
 
 ## Project Structure
