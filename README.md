@@ -6,11 +6,32 @@ This repository contains a responsive **Vite + React + Tailwind CSS** implementa
 - **Home:** Knowledge Base listing (cards + pagination)
 - **Create New:** Modal/Drawer to create a new Knowledge Base
 
-**Design tokens**
-- Primary: `#4F46E5`
-- Secondary: `#1E1B4B`
+### UI Implementation Requirements
+- Replicate the Figma design with high visual accuracy
+- Maintain proper spacing, typography, colors, and alignment
+- Ensure consistency across components
+- **Create New** button must be clickable; the rest of the menu buttons/links can be static (non-clickable)
 
-## Highlights (Beyond the Basics)
+### 2) Component-Based Architecture
+- Break the UI into reusable components:
+  - `Header`
+  - `Sidebar`
+  - `MainContent`
+  - `KBCard`
+  - `CreateKBModal`
+  - `Dropdown`
+- Follow a clean folder structure
+
+### Code Quality
+Evaluation criteria:
+- Code readability and structure
+- Reusability of components
+- Naming conventions
+- Separation of concerns
+
+
+----------------------------------------------------------------------
+  ## UI Implementation Notes (What's Extra I Built)
 - Reusable component architecture: `Header`, `Sidebar`, `MainContent`, `KBCard`, `CreateKBModal`, `Dropdown`
 - Animated reusable `Dropdown` used across the UI (workspace selector, rows-per-page, modal selects)
 - Dynamic Knowledge Bases (create -> appears instantly, pin sorting supported)
@@ -20,7 +41,7 @@ This repository contains a responsive **Vite + React + Tailwind CSS** implementa
   - Off-canvas sidebar on mobile/tablet (toggle + overlay click-outside close)
   - Modal overlay (dim/blur) with mobile-friendly sizing
 
-## Screenshots
+## UI Screenshots
 Click to view:
 - [knowledgebase_list](./screenshots/KnowledgeBase_list.png)
 - [web_view](./screenshots/web_view.png)
