@@ -67,15 +67,6 @@ npm run build
 npm run preview
 ```
 
-## Live Demo (Optional)
-- GitHub Pages URL format: `https://<github-username>.github.io/<repo-name>/`
-
-## Deploy - GitHub Pages
-1. Push to GitHub (main branch).
-2. In GitHub repo settings: **Settings -> Pages**
-   - **Build and deployment:** select **GitHub Actions**
-3. Wait for the workflow **Deploy to GitHub Pages** to finish.
-
 ## Deploy - Netlify
 1. Netlify -> **Add new site -> Import an existing project**
 2. Select your GitHub repo
