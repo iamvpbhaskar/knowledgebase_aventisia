@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Bell, ChevronDown, Menu, Search, X } from 'lucide-react';
+import workspaceLogo from '../../screenshots/image1.png';
 
 export default function Header({
   searchQuery = '',
@@ -62,42 +63,12 @@ export default function Header({
 
           <div className="flex items-center gap-2">
             <div className="hidden sm:flex w-8 h-8 rounded-xl bg-white/5 border border-white/10 items-center justify-center shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
-              <svg
-                viewBox="0 0 64 64"
-                className="w-5 h-5"
-                fill="#4F46E5"
-                aria-hidden="true"
-              >
-                {/* Donut + diagonal mark (logo-like) */}
-                <path
-                  fillRule="evenodd"
-                  d="
-                    M22 44
-                    m -14 0
-                    a 14 14 0 1 0 28 0
-                    a 14 14 0 1 0 -28 0
-                    M22 44
-                    m -6 0
-                    a 6 6 0 1 1 12 0
-                    a 6 6 0 1 1 -12 0
-                  "
-                />
-                <path
-                  fillRule="evenodd"
-                  d="
-                    M41 8
-                    L56 17
-                    L40 57
-                    L26 48
-                    Z
-                    M39 22
-                    L45 25.5
-                    L39 36
-                    L33 32.5
-                    Z
-                  "
-                />
-              </svg>
+              <img
+                src={workspaceLogo}
+                alt="Workspace"
+                className="w-5 h-5 object-contain"
+                draggable="false"
+              />
             </div>
             <span className="text-sm sm:text-base font-semibold tracking-wide">Workspace</span>
           </div>
