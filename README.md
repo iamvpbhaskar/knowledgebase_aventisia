@@ -112,5 +112,4 @@ Open: `http://localhost:5173/`
 `-- vite.config.js
 ```
 
-## Assignment Brief / Deliverables
-See `assignment-plan.md`.
+
