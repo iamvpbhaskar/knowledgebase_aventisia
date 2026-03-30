@@ -147,6 +147,7 @@ export default function CreateKBModal({ mode = 'create', initialValues, onClose,
                   onChange={(v) => setFormData((prev) => ({ ...prev, vectorStore: String(v) }))}
                   placement="bottom"
                   widthClassName="w-full"
+                  portal
                   buttonClassName="w-full h-10 px-3 border border-gray-200 rounded-md text-sm text-gray-900 bg-white hover:bg-gray-50 transition"
                   options={[
                     { value: 'Qdrant', label: 'Qdrant' },
@@ -166,6 +167,7 @@ export default function CreateKBModal({ mode = 'create', initialValues, onClose,
                   onChange={(v) => setFormData((prev) => ({ ...prev, llmModel: String(v) }))}
                   placement="bottom"
                   widthClassName="w-full"
+                  portal
                   buttonClassName="w-full h-10 px-3 border border-gray-200 rounded-md text-sm text-gray-900 bg-white hover:bg-gray-50 transition"
                   options={[
                     { value: 'text-embedding-ada-002', label: 'text-embedding-ada-002' },
